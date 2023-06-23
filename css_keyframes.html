@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYFRAMES</title>
+    <style>
+        div{
+            width: 100px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: crimson;
+            animation-name: animate--div;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            animation-timing-function: ease-in;
+
+        }
+        @keyframes animate--div{
+            0%{
+                background-color: darkcyan;
+                transform: translateX(500px);
+
+            }
+            20%{
+                background-color: blue;
+                transform: translateY(500px);
+            }
+            40%{
+                background-color: blueviolet;
+                transform: translateX(300px);
+            }
+            60%{
+                background-color: coral;
+                transform: translateY(300px);
+            }
+            80%{
+                background-color: darkmagenta;
+                transform: translateX(200px);
+            }
+            100%{
+                background-color: deeppink;
+                transform: translateY(200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+</div>
+    
+</body>
+</html>
