@@ -1,0 +1,21 @@
+let pet =
+{
+    type:" chow chow" ,
+    name:" Rishi",
+    legs:" four",
+    color:"black",
+    food1:"pedigree",
+    choice:"Milk",
+    choice2:"chicken",
+    choice3:"Biscuits",
+cfood: function()
+{
+    return this.choice+" "+this.choice2+" "+this.choice3;
+}
+}
+console.log(pet.food1);
+for( i in pet)
+{
+    console.log(pet[i]);
+}
+console.log(pet.cfood());

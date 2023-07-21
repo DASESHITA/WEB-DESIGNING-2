@@ -9,10 +9,10 @@ html {
         
             
         background-repeat: repeat-x;
-        background-position: 0 30%,
+        background-position: 0 50%,
         0 60%;
         
-        background-size:
+        background-size :
         11000px,
         7000px;
         animation: 5s animate infinite linear;
@@ -20,12 +20,12 @@ html {
     
     @keyframes animate {
         0%{
-            background-position: 
+            background-position : 
             11000px 70%,
             7000px 60%;
         }
         100% {
-            background-position: 
+            background-position : 
             10000px 30%,
             1000px 20%;
             }
